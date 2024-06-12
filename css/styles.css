@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  background-color: #333;
+  color: white;
+  font-family: "Kode Mono", monospace;
+}
+
+nav {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  padding: 2em;
+}
+
+nav img {
+  height: 100px;
+  width: 100px;
+}
+
+main {
+  padding: 2em;
+  display: flex;
+  min-height: 70vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: 0.5s;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+}
+
+.dice {
+  background-color: #333;
+  border: none;
+  width: 25%;
+  height: 10%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2em 4em;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.dice p {
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+}
+
+.dice img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1em;
+}
+
+.dice:hover {
+  background-color: #555;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 97%;
+  height: 5%;
+  position: absolute;
+  bottom: 60px;
+}
+
+.actions div {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions > div > p {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.actions > div > input {
+  height: 15px;
+  margin-top: 5px;
+  width: 75%;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1em;
+  border: none;
+}
+
+.actions > div > input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  height: 5vh;
+  background-color: #111;
+  width: 100%;
+}
+
+footer p {
+  font-size: 1em;
+}

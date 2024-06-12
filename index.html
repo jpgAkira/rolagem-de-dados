@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dados para RPG</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="images/beru.ico" type="image/x-icon" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <img src="images/logo_sem_fundo.png" alt="logo de um dado" />
+    </nav>
+    <main>
+      <div class="after">
+        <div class="result">
+          
+        </div>
+      </div>
+      <section>
+        <button class="dice" onclick="rolld(4)">
+          <img src="images/d4.png" alt="d4" />
+          <p>d4</p>
+        </button>
+      </section>
+      <section>
+        <button class="dice" onclick="rolld(6)">
+          <img src="images/d6.png" alt="d6" />
+          <p>d6</p>
+        </button>
+      </section>
+      <section>
+        <button class="dice" onclick="rolld(8)">
+          <img src="images/d8.png" alt="d8" />
+          <p>d8</p>
+        </button>
+      </section>
+      <section>
+        <button class="dice" onclick="rolld(10)">
+          <img src="images/d10.png" alt="d10" />
+          <p>d10</p>
+        </button>
+      </section>
+      <section>
+        <button class="dice" onclick="rolld(12)">
+          <img src="images/d12.png" alt="d12" />
+          <p>d12</p>
+        </button>
+      </section>
+      <section>
+        <button class="dice" onclick="rolld(20)">
+          <img src="images/d20.png" alt="d20" />
+          <p>d20</p>
+        </button>
+      </section>
+      <div class="actions">
+        <div>
+          <label for="turns">Numero de dados:</label
+          ><input type="number" name="turns" id="turns" value="1" min="1" />
+        </div>
+        <div>
+          <label for="bonus">Bonus no dado:</label
+          ><input type="number" name="bonus" id="bonus" value="0" min="0" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Rolagem de dados</p>
+    </footer>
+  </body>
+</html>
