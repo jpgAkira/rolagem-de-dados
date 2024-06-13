@@ -82,6 +82,12 @@ section {
   background-color: #555;
 }
 
+@media only screen and (max-width: 768px) {
+  .dice:hover {
+    background-color: initial;
+  }
+}
+
 .actions {
   display: flex;
   justify-content: space-between;
