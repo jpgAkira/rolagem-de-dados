@@ -8,7 +8,7 @@
 
 html,
 body {
-  height: 100vh;
+  height: 100dvh;
   width: 100%;
 }
 
@@ -20,7 +20,7 @@ body {
 
 nav {
   width: 100%;
-  height: 15vh;
+  height: 15dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@ nav img {
 main {
   padding: 2em;
   display: flex;
-  min-height: 70vh;
+  min-height: 70dvh;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -208,7 +208,7 @@ footer {
   justify-content: center;
   align-items: center;
   bottom: 0;
-  height: 5vh;
+  height: 5dvh;
   background-color: #111;
   width: 100%;
 }
